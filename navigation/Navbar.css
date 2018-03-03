@@ -1,0 +1,41 @@
+/*displays up to 400px */
+@media (max-width: 400px){
+  .navigation button  {
+    display: none;
+  }
+
+}
+/* displays larger than 400px */
+@media (min-width: 400px){
+  .navigation .hambrg-btn {
+    display: none;
+  }
+}
+
+/* the overall navbar colour and position */
+/* #navigation{ */
+  /* position:fixed; */
+  /* z-index:1; */
+  /* width: 200px; */
+  /* height: 100%; */
+  /* background: #2B3E51; */
+  /* right: -200px;  /*renders the navbar out of range. Switch right / left*/ */
+  /* transition: all 300ms linear; /* to create the animation*/ */
+/* } */
+
+/* renders the navbar if clicked */
+/* #navigation.active { */
+  /* right: 0px; /*right or left*/ */
+/* } */
+
+/* the <ul> and <li> items formatting */
+/* #navigation ul li { */
+  /* list-style: none; */
+  /* padding: 10px 10px; */
+  /* border-bottom: 1px solid #4da7ca; */
+/* } */
+
+/* list <a> tag color formatting */
+/* #navigation ul li a{ */
+  /* color: #4da7ca; */
+/* } */

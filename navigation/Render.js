@@ -22,6 +22,9 @@ $(document).ready(function(){
 
     //finally add a "show" class to the active button.
     $(id).addClass("show").fadeIn('slow')
+  })
 
+  $('.hambrg-btn').click(function(){
+    $( this ).toggleClass('active')
   })
 })
