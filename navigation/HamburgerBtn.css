@@ -1,0 +1,16 @@
+
+/* setup hamburger button size and position */
+.navigation .hambrg-btn {
+  cursor: pointer;
+  border: 1px;
+}
+/* bamburder button looks */
+.navigation .hambrg-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #2B3E51;
+  margin: 3px 0px;
+  padding: 0.1em;
+  margin: 0.2em;
+}

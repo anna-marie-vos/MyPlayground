@@ -1,2 +1,2 @@
-# MyPlayground
-This is where I try out stuff
+# Standard-Site-Setup
+This is my own folder structure to create standard websites

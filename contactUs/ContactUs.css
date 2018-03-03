@@ -1,0 +1,8 @@
+
+#contactUs.show {
+  background: #d8c5dd;
+  padding: 200px 50px
+}
+#contactUs.hide{
+ display: none;
+}

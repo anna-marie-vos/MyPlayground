@@ -1,0 +1,7 @@
+#aboutUs.show{
+ background: #c5dbdd;
+ padding: 200px 50px;
+}
+#aboutUs.hide{
+ display: none;
+}

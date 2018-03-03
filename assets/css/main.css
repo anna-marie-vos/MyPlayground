@@ -1,0 +1,40 @@
+
+* {
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 100%;
+  float: left;
+}
+
+button {
+  margin: 0.1em 0.2em;
+  flex-grow: 1;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: green;
+}
+
+@media (min-width: 400px){
+  * {
+    margin: 0.1em;
+  }
+}
+
+@media (min-width: 960px) {
+  * {
+    margin: 0.1em 4.5em;
+  }
+}

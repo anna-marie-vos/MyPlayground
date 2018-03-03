@@ -1,0 +1,7 @@
+#About.show{
+ background: #c5dbdd;
+ padding: 200px 50px;
+}
+#About.hide{
+ display: none;
+}
