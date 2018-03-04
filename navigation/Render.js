@@ -7,11 +7,13 @@ $(document).ready(function(){
 
     //get the hrefs of all the other buttons
     $('.navigation').find('button').each(function(i){
+
       btnHrefs.push($(this).attr('href'))
     })
 
     //get the hrefs of all the unselected buttons
     const unusedBtns = btnHrefs.filter((href)=>{
+      console.log('href', href, 'id', id);
       return href != id
     })
 

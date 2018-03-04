@@ -1,0 +1,7 @@
+#Home.show{
+ background: 	#4169E1;
+ padding: 200px 50px;
+}
+#Home.hide{
+ display: none;
+}
