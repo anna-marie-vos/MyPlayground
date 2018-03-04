@@ -3,6 +3,8 @@
 .navigation .hambrg-btn {
   cursor: pointer;
   border: 1px;
+  position: absolute;
+  left: 0;
 }
 /* bamburder button looks */
 .navigation .hambrg-btn span {
@@ -13,4 +15,8 @@
   margin: 3px 0px;
   padding: 0.1em;
   margin: 0.2em;
+}
+
+.hambrg-btn.active span {
+  display: none;
 }

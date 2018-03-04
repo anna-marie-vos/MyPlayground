@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $('.navigation').on('click','button[href^="#"]',function(e){
+  $('.navigation, #navbar').on('click','button[href^="#"]',function(e){
     //get the href of the clicked button
     const id = $(this).attr('href')
     const btnHrefs = []
@@ -24,7 +24,13 @@ $(document).ready(function(){
     $(id).addClass("show").fadeIn('slow')
   })
 
+  //control the navbar
   $('.hambrg-btn').click(function(){
-    $( this ).toggleClass('active')
+    $( '#navbar, .hambrg-btn' ).addClass('active')
   })
+
+  $( '#navbar' ).click(function(){
+    $( '#navbar, .hambrg-btn' ).removeClass('active')
+  })
+
 })

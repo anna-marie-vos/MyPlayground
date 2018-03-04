@@ -28,13 +28,14 @@ button:focus {
 }
 
 @media (min-width: 400px){
-  * {
+  .content {
     margin: 0.1em;
   }
 }
 
 @media (min-width: 960px) {
-  * {
-    margin: 0.1em 4.5em;
+  .content {
+    margin: 2em auto;
+    width: 960px;
   }
 }
