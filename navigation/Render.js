@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     //get the hrefs of all the unselected buttons
     const unusedBtns = btnHrefs.filter((href)=>{
-      console.log('href', href, 'id', id);
+      // console.log('href', href, 'id', id);
       return href != id
     })
 
